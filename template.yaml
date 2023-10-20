@@ -111,7 +111,7 @@ spec:
           applicationType: gitops
           description: Contains the ArgoCD manifests for ${{ parameters.repoName }}
           namespace: ${{ parameters.namespace }}
-          imageUrl: ${{ parameters.imageRepository }}/${{ parameters.imageUrl }}
+          imageUrl: ${{ parameters.imageUrl }}
           hostUrl: ${{ parameters.hostUrl }}
           imageRepository: ${{ parameters.imageRepository }}
           port: ${{ parameters.port }}
@@ -130,7 +130,7 @@ spec:
           applicationType: gitops
           description: Contains the ArgoCD manifests for ${{ parameters.repoName }}
           namespace: ${{ parameters.namespace }}
-          imageUrl: ${{ parameters.imageRepository }}/${{ parameters.imageUrl }}
+          imageUrl: ${{ parameters.imageUrl }}
           hostUrl: ${{ parameters.hostUrl }}
           imageRepository: ${{ parameters.imageRepository }}
           port: ${{ parameters.port }}
