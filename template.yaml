@@ -147,6 +147,7 @@ spec:
       input:
         allowedHosts: ['github.com']
         description: Contains the ArgoCD manifests for ${{ parameters.repoName }}
+        repoVisibility: 'public'
         repoUrl: github.com?owner=${{ parameters.orgName }}&repo=${{ parameters.repoName }}-gitops
         defaultBranch: main
 
