@@ -12,6 +12,7 @@ metadata:
     app.kubernetes.io/managed-by: backstage
     backstage.io/kubernetes-id: ${{ values.namespace }}
 spec:
+  host: ${{ values.hostUrl }}
   to:
     kind: Service
     name: ${{ values.repoName }}
